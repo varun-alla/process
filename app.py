@@ -36,6 +36,7 @@ def hello3() :
             os.remove("leaves.png")
             os.remove("totem.png")
             os.remove("z1binary.tif")
+            os.remove("A.tif")
             shutil.rmtree("outputs", ignore_errors=True)
         return send_file("output.zip")
     except Exception as e:
